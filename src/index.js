@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AuthExample from './components/AuthExample';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthExample />
   </React.StrictMode>,
   document.getElementById('root')
 );
